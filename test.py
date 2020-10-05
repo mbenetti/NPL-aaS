@@ -6,6 +6,8 @@ import json
 from PIL import Image
 import os
 
+
+
 @st.cache
 def load_image(img):
 	im = Image.open(img)
